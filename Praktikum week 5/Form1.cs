@@ -20,7 +20,7 @@ namespace Praktikum_week_5
         private void btnAdd_Click(object sender, EventArgs e)
         {
             int JumlahListBox = listBoxKoleksi.Items.Count;
-            int ngecek = 0;
+          
             if (listBoxKoleksi.Items.Count == 0)
             {
                 listBoxKoleksi.Items.Add(txtBoxInputData.Text);
